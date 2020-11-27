@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+    --primary-color:#059669;
+    --dark-grey:#6B7280;
+    --off-white:#E5E7EB;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+hr{
+    margin:2rem 0rem;
+}
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 50%;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid;
+
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation a{
+    color: white;
+}
+.nav-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.hero{
+    color: var(--dark-grey);
+    text-align: center;
+}
+.hero-img{
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+.section-white{
+    padding: 1rem;
+    text-align: center;
+}
+.section-off-white{
+    background-color: var(--off-white);
+    padding: 1rem;
+    text-align: center;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 0.9rem;
+    color: white;
+    text-align: center;
+   
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic component Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Basic Components Library </h1>
@@ -17,13 +18,70 @@
     <hr>
     <h2>@container</h2>
     <h3>Fluid container</h3>
-    <div>This is the fluid container which covers complete row</div>
+    <div class="container">This is the fluid container which covers complete row</div>
     
     <h3>Centred container</h3>
-    <div>This is the centred container which covers till specified width</div>
+    <div class="container-center">This is the centred container which covers till specified width</div>
     <hr>
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+    <hr>
+    <h2>@Lists</h2>
+    <h3>Unordered list</h3>
+    <p>This list will contain no bullets</p>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <h3>Unordered Inline List</h3>
+    <ul class="list-non-bullet">
+        <li class="list-inline">Item One</li>
+        <li class="list-inline">Item Two</li>
+        <li class="list-inline">Item Three</li>
+    </ul>
+    <h3>Reverse Ordered List</h3>
+    <ol reversed>
+        <li>Item three</li>
+        <li>Item Two</li>
+        <li>Item One</li>
+    </ol>
+    <hr>
+    <h2>@nav</h2>
+    <nav class="navigation">
+        <div class="nav-header">IAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-inline"><a class="link link-active" href="/">Home</a></li>
+            <li class="list-inline"><a class="link" href="/">Contacts</a></li>
+            <li class="list-inline"><a class="link" href="/">About</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h2>Header</h2>
+    <header class="hero">
+        <img class="hero-img" src="images/hero_header.svg" alt="">
+        <h3>Image</h3>
+    </header>
+    <hr>
+    <h2>@Section</h2>
+    <section class="section-white">
+        <h3>White section</h3>
+        <p>This will have white background</p>
+    </section>
+    <section class="section-off-white">
+        <h3>Off white section</h3>
+        <p>This will have grey background</p>
+    </section>
+    <hr>
+    <h2>@Footer</h2>
+    <footer class="footer">
+        <div>Small heading inside.Don't use heading tags here</div>
+        <ul class="list-non-bullet">
+            <li class=" list-inline">Maps</li>
+            <li class=" list-inline">Sections</li>
+        </ul>
+    </footer>
+
 </body>
 </html>
