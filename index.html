@@ -3,85 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic component Library</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="/components/style.css">
+</head> 
 <body>
-    <h1>Basic Components Library </h1>
-    <p>This is the basic component library which would make the development process efficient and faster</p>
-    <hr>
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is the paragraph text.</p>
-    <small>This is relatively small text.</small>
-    <hr>
-    <h2>@container</h2>
-    <h3>Fluid container</h3>
-    <div class="container">This is the fluid container which covers complete row</div>
-    
-    <h3>Centred container</h3>
-    <div class="container-center">This is the centred container which covers till specified width</div>
-    <hr>
-    <h2>@links</h2>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <hr>
-    <h2>@Lists</h2>
-    <h3>Unordered list</h3>
-    <p>This list will contain no bullets</p>
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-    <h3>Unordered Inline List</h3>
-    <ul class="list-non-bullet">
-        <li class="list-inline">Item One</li>
-        <li class="list-inline">Item Two</li>
-        <li class="list-inline">Item Three</li>
-    </ul>
-    <h3>Reverse Ordered List</h3>
-    <ol reversed>
-        <li>Item three</li>
-        <li>Item Two</li>
-        <li>Item One</li>
-    </ol>
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation">
-        <div class="nav-header">IAmBrand</div>
+        <div class="nav-header">Developer</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline"><a class="link link-active" href="/">Home</a></li>
-            <li class="list-inline"><a class="link" href="/">Contacts</a></li>
-            <li class="list-inline"><a class="link" href="/">About</a></li>
+            <li class="list-inline"><a class="link" href="/project.html">Projects</a></li>
+            <li class="list-inline"><a class="link" href="/blog.html">Blogs</a></li>
         </ul>
     </nav>
-    <hr>
-    <h2>Header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/hero_header.svg" alt="">
-        <h3>Image</h3>
+        <img class="hero-img shadow-effect" src="/images/hero_header.svg" alt="">
+        <h3>Hi! I am Gaurav.</h3>
+        <h3>If you are looking for a <span class="hero-inverted-color">Web Developer</span> then please scroll through my portfolio once.</h3>
     </header>
     <hr>
-    <h2>@Section</h2>
-    <section class="section-white">
-        <h3>White section</h3>
-        <p>This will have white background</p>
-    </section>
     <section class="section-off-white">
-        <h3>Off white section</h3>
-        <p>This will have grey background</p>
+        <h3>Technologies</h3>
+        <div class="container-center">
+        <p>I am familiar with HTML5,CSS,JAVASCRIPT. Also, I have good experince in JAVA and SQL. Along with this I am familiar with bash scripting and Jenkins for automation.</p></div>
     </section>
     <hr>
-    <h2>@Footer</h2>
+    <section class="section-white">
+        <h3>Project</h3>
+        <div class="container-center">
+        <p>I have built few very interesting projects in the live bootcamp session. Please have a look on my open projects</p>
+    <a class="link link-primary" href="/project.html">View Projects</a></div>
+    </section>
+    <hr>
+    <section class="section-off-white">
+        <h3>Blogs</h3>
+        <div class="container-center">
+        <p>Along with development, I am also passionate about blogging. Feel free to have a look on it once</p>
+        <a class="link link-secondary" href="/blog.html">Read Blogs</a></div>
+    </section>
+    <hr>
     <footer class="footer">
-        <div>Small heading inside.Don't use heading tags here</div>
+        <div class="container-center">Reach Me Out here</div>
         <ul class="list-non-bullet">
-            <li class=" list-inline">Maps</li>
-            <li class=" list-inline">Sections</li>
+            <li class=" list-inline"><a class="link-contact" href="https://github.com/gauravanand08">GitHub</a></li>
+            <li class=" list-inline"><a class="link-contact" href="https://www.linkedin.com/in/gaurav-anand-66384a103/">LinkedIn</a></li>
         </ul>
     </footer>
-
 </body>
 </html>

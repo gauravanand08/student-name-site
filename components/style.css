@@ -26,12 +26,17 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin: 25px;
 }
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid;
-
+    margin: 25px;
+}
+.link-contact{
+    text-decoration: none;
+    color: white;
 }
 .list-non-bullet{
     list-style: none;
@@ -45,6 +50,7 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 0.5rem;
+    margin-bottom: 40px;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -67,6 +73,16 @@ hr{
     max-width: 400px;
     margin: auto;
     display: block;
+    padding: 2rem;
+    border-radius: 50%;
+    border: solid var(--dark-grey);
+}
+.shadow-effect{
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
+}
+.hero-inverted-color{
+    color: var(--primary-color);
 }
 .section-white{
     padding: 1rem;
@@ -83,5 +99,7 @@ hr{
     border-bottom-left-radius: 0.9rem;
     color: white;
     text-align: center;
-   
+}
+.footer .list-non-bullet .list-inline{
+    padding: 0rem 8rem;
 }
